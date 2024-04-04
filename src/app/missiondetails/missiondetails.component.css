@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mission-details-card {
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px; /* Adjust based on actual design requirements */
+    margin: auto;
+    overflow: hidden;
+    padding: 1.5rem;
+}
+
+#title{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.card-header {
+    background: #000088;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.card-content {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.mission-patch {
+    margin-right: 0rem;
+    margin-left: -2.2rem;
+}
+
+.mission-patch img {
+    width: 20rem; /* Adjust based on actual design requirements */
+    height: auto;
+}
+
+.mission-text {
+    flex: 1;
+    text-align: left;
+}
+
+.mission-text h1 {
+    font-size: 20px;
+    color: #000;
+}
+
+.mission-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000;
+}
+
+.card-footer {
+    background: #fff;
+    color: #000;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #dddddd;
+}
+h2{
+    text-align: left;
+}
+
+.icons {
+    font-size: 1.5rem;
+    text-align: left;
+}
+i {
+    margin-right: .5rem;
+}
+
+#docx {
+    color: #0d4fb9;
+}
+#world {
+    color: #3c763d;
+}
+#video {
+    color: #e93052;
+}
+
+
+/* Additional styles for buttons or icons in the footer would be added here */

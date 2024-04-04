@@ -1,0 +1,20 @@
+<div *ngIf="selectedLaunch" class="mission-details-card">
+    <div class="card-header">{{ selectedLaunch.mission_name }}</div>
+    <div class="card-content">
+      <div class="mission-patch">
+        <img *ngIf="selectedLaunch.mission_patch_small" [src]="selectedLaunch.mission_patch_small" alt="Mission Patch">
+      </div>
+      <div class="mission-text">
+        <h2>Launch Year: {{ selectedLaunch.launch_year }}</h2>
+        <p>{{ selectedLaunch.details }}</p>
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="icons">
+        <i id="docx" class="fa fa-file-word"></i>
+        <i id="world" class="fa fa-globe"></i>
+        <i id="video" class="fa fa-video-camera"></i>
+      </div>
+    </div>
+  </div>
+  
